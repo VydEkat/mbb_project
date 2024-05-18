@@ -1,18 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T19:45:58.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="RFC4MqJ-nMWg07M-ksZ7" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T20:10:42.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3EpzXBiQ9Nzy_x4syvyS" version="24.4.0" type="github" pages="2">
   <diagram name="Страница — 1" id="QuONOwKnslvq9nY079jv">
-    <mxGraphModel dx="570" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="789" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="njvdmeLRhzQaKq89l4y6-4" value="Выплата перевода" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="480" height="240" as="geometry" />
+          <mxGeometry x="160" y="40" width="1042.23" height="390" as="geometry" />
         </mxCell>
         <mxCell id="njvdmeLRhzQaKq89l4y6-5" value="Клиент" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-4">
-          <mxGeometry x="20" width="460" height="120" as="geometry" />
+          <mxGeometry x="20" width="1022.23" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-5">
+          <mxGeometry x="70" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-13" value="&lt;p style=&quot;line-height: 106%;&quot;&gt;&lt;font data-sider-select-id=&quot;1f2a6467-5bed-42fa-9687-dce3af121b29&quot; style=&quot;font-size: 10px;&quot;&gt;Клиент обратился &lt;br&gt;к терминалу в банке&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;perimeterSpacing=0;strokeWidth=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-5">
+          <mxGeometry x="33.75" y="120" width="106.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="njvdmeLRhzQaKq89l4y6-5" source="njvdmeLRhzQaKq89l4y6-12" target="njvdmeLRhzQaKq89l4y6-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-16" value="&lt;font data-sider-select-id=&quot;254a3082-e860-41d3-8f90-ba41688f042c&quot; style=&quot;font-size: 10px;&quot;&gt;Выбрать сервис получения перевода&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-5">
+          <mxGeometry x="174" y="65" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-21" value="Внести данные для получения перевода" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-5">
+          <mxGeometry x="360" y="55" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="njvdmeLRhzQaKq89l4y6-6" value="Сервис" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-4">
-          <mxGeometry x="20" y="120" width="460" height="120" as="geometry" />
+          <mxGeometry x="20" y="190" width="1022.23" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-17" value="&lt;font data-sider-select-id=&quot;254a3082-e860-41d3-8f90-ba41688f042c&quot; style=&quot;font-size: 10px;&quot;&gt;Отобразить форму заполнения данных для получения перевода&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="njvdmeLRhzQaKq89l4y6-6">
+          <mxGeometry x="174" y="70" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="njvdmeLRhzQaKq89l4y6-4" source="njvdmeLRhzQaKq89l4y6-16" target="njvdmeLRhzQaKq89l4y6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njvdmeLRhzQaKq89l4y6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="njvdmeLRhzQaKq89l4y6-4" source="njvdmeLRhzQaKq89l4y6-17" target="njvdmeLRhzQaKq89l4y6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BxvQKWtgrVkJmPqTaLMh" name="Страница — 2">
+    <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
